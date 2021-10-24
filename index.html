@@ -8,19 +8,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
-    <div class="container palette-container">
-    </div>
-    <div class="container button-container">
-      <button class="fill-button">FILL</button>
-      <button class="save-button">SAVE</button>
-      <button class="upload-button">UPLOAD</button>
-      <button class="size-button">SIZE</button>
-      <button class="add-color-button" onclick="addColor()">ADD COLOR</button>
-      <button class="remove-color-button">REMOVE COLOR</button>
-      <input type="color" id="new-color" name="new-color">
-    </div>
+  <div class="container button-container">
+    <button class="fill-button">FILL</button>
+    <button class="save-button">SAVE</button>
+    <button class="load-button">LOAD</button>
+    <button class="clear-button">CLEAR</button>
+    <!-- <button class="size-button">SIZE</button> -->
+    <button class="add-color-button" onclick="addColor()">ADD COLOR</button>
+    
+    <!-- <button class="remove-color-button">REMOVE COLOR</button> -->
+    <input type="color" id="new-color" name="new-color">
+  </div>
+    <div class="container palette-container"></div>
+    
     <div class="grid-container"></div>
+    <div class="text-box">Use this 20 by 20 grid to make whatever you can think of! You can add new colors to the pallette by selecting your desired color and clicking "Add Color." You can use the white color button as an eraser or clear your progress by hitting "CLEAR."</div>
     <script src="script.js"></script>
 </body>
 </html>

@@ -18,6 +18,10 @@ body {
   .palette-container {
     text-align: center;
   }
+  .button-container,
+  .palette-container {
+    background-color:darkgrey;
+  }
   .grid-container {
     position: fixed;
     top: 0;
@@ -38,8 +42,20 @@ body {
   
   .circle {
     display: inline-block;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     height: 30px;
     width: 30px;
     border: 1px solid black;
+  }
+
+  .text-box {
+    border: 1px solid black;
+    height: 20rem;
+    width: 20rem;
+    position: fixed;
+    top: 0px;
+    left: 600px;
+    margin: 25px;
+    background-color: white;
+    text-align: left;
   }
